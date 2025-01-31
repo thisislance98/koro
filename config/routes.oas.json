@@ -341,7 +341,9 @@
             }
           },
           "policies": {
-            "inbound": []
+            "inbound": [
+              "api-key-inbound"
+            ]
           }
         },
         "operationId": "a4285949-8253-46f5-9d05-70f1cd19b1d4"
@@ -364,7 +366,9 @@
             }
           },
           "policies": {
-            "inbound": []
+            "inbound": [
+              "api-key-inbound-1"
+            ]
           }
         },
         "operationId": "74536ac1-9b68-427d-a382-e5b108920bc8"
