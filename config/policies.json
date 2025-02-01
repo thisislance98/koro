@@ -76,6 +76,31 @@
       },
       "name": "api-key-inbound-1",
       "policyType": "api-key-inbound"
+    },
+    {
+      "handler": {
+        "export": "Auth0JwtInboundPolicy",
+        "module": "$import(@zuplo/runtime)",
+        "options": {
+          "allowUnauthenticatedRequests": false,
+          "audience": "https://api.korospeech.com/",
+          "auth0Domain": "dev-8mxj8d0k7i1qamit.us.auth0.com"
+        }
+      },
+      "name": "auth0-jwt-auth-inbound",
+      "policyType": "auth0-jwt-auth-inbound"
+    },
+    {
+      "handler": {
+        "export": "ClerkJwtInboundPolicy",
+        "module": "$import(@zuplo/runtime)",
+        "options": {
+          "allowUnauthenticatedRequests": false,
+          "frontendApiUrl": "$env(CLERK_FRONTEND_API_URL)"
+        }
+      },
+      "name": "clerk-jwt-auth-inbound",
+      "policyType": "clerk-jwt-auth-inbound"
     }
   ]
 }
