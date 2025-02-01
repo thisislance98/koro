@@ -1,4 +1,10 @@
 {
   "$schema": "https://cdn.zuplo.com/schemas/dev-portal.json",
-  "enableAuthentication": true
+  "enableAuthentication": true,
+  "authentication": {
+    "provider": "auth0",
+    "clientId": "vh8KPigAJr2bAgCXlQaPNgqWb9y9TQXD",
+    "audience": "https://api.korospeech.com/",
+    "issuer": "https://dev-8mxj8d0k7i1qamit.us.auth0.com"
+  }
 }

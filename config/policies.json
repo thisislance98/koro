@@ -58,7 +58,7 @@
         "export": "ApiKeyInboundPolicy",
         "module": "$import(@zuplo/runtime)",
         "options": {
-          "allowUnauthenticatedRequests": false,
+          "allowUnauthenticatedRequests": true,
           "cacheTtlSeconds": 60
         }
       },
@@ -70,7 +70,7 @@
         "export": "ApiKeyInboundPolicy",
         "module": "$import(@zuplo/runtime)",
         "options": {
-          "allowUnauthenticatedRequests": false,
+          "allowUnauthenticatedRequests": true,
           "cacheTtlSeconds": 60
         }
       },
