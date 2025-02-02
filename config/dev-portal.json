@@ -8,5 +8,8 @@
     "secretKey": "$env(STRIPE_SECRET_KEY)",
     "pricingTableId": "prctbl_1QmrS3JHfdGMScqotR7hv6SL",
     "publishableKey": "pk_test_51KlgTAJHfdGMScqognu42j8uHZM4yP6QOwi1ZOfQbQYehFjrfowfiWYNTRRoEChVrakybfsHRRFATOetLkAvy0fO002jquymaW"
+  },
+  "authentication": {
+    "provider": "clerk"
   }
 }

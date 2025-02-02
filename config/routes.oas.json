@@ -342,7 +342,7 @@
           },
           "policies": {
             "inbound": [
-              "api-key-inbound-2",
+              "clerk-jwt-auth-inbound",
               "monetization-inbound"
             ]
           }
@@ -368,7 +368,7 @@
           },
           "policies": {
             "inbound": [
-              "api-key-inbound-3",
+              "clerk-jwt-auth-inbound",
               "monetization-inbound"
             ]
           }
